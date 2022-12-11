@@ -5,7 +5,7 @@ from flask import Flask, flash, redirect, render_template, request, session
 import pdfplumber
 import string
 import spacy
-nlp = spacy.load("en_core_web_lg")
+nlp = spacy.load("en_core_web_md")
 
 UPLOAD_FOLDER = './uploads'
 ALLOWED_EXTENSIONS = ['pdf']
