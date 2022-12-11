@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    About
+{% endblock %}
+
+{% block main %}
+<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+    <span class="fs-4 me-2"><span class="my-screenr-logo">screenr</span><span class="my-ai-logo">.ai</span></span>
+    </a>
+
+    <ul class="nav nav-pills">
+    <li class="nav-item"><a href="/" class="nav-link" aria-current="page">Search</a></li>
+    <li class="nav-item"><a href="/insights" class="nav-link">Insights</a></li>
+    <li class="nav-item"><a href="/about" class="nav-link active">About</a></li>
+    </ul>
+</header>
+
+<div class="p-5 mb-4 bg-light rounded-3 about-bg">
+    <!-- <div class="god-give-me-overlay"> -->
+    <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Let's face it, job search is broken.</h1>
+        <p class="col-md-8 fs-4 fw-normal shadowy-stuff">You either spend hours searching for that relevant job that suits your profile or just start applying to hundreds of them to find the one that suits you.</p>
+        <p class="col-md-8 fs-4 fw-normal shadowy-stuff">Here's how we're fixing it.</p>
+    </div>
+</div>
+
+<div class="row align-items-md-stretch">
+    <div class="col-md-6">
+        <div class="h-100 p-5 text-bg-dark rounded-3">
+            <h2>This is where we come in.</h2>
+            <p>We find the keywords from your Resume and get you the most relevant job postings taken from some of the largest job sites in the world.</p>
+            <!-- <p>This saves you a lot of time in job search, which you can instead use in skill development to land a better one.</p> -->
+            <p>Oh, and we don't store your resume or details unless you explicitly agree to store them with us.</p>
+            <p>Want to learn how it works?</p>
+            <button class="btn btn-secondary how-btn" type="button" onclick="window.location.href='/how'">Click Here</button>
+            <!-- <button class="btn btn-outline-light" type="button">Example button</button> -->
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="col-md-6">
+        <div class="h-100 p-5 bg-white rounded-3">
+            <!-- <h2>These are some of the sites we refer to</h2> -->
+            <!-- <img src="job_sites_logos.png" class="img-fluid"> -->
+                <h2>Delivering the best match always.</h2>
+                <p class="shadowy-stuff">We ensure that you are matched to the oppourtunities best suited to your skills and experience as mentioned in your resume.</p>
+                <p class="shadowy-stuff">When you click search, we parse your resume and match your skills and experience to thousands of postings online to get you the best results.</p>
+                <p class="shadowy-stuff">So, what are you waiting for?</p>
+            <button class="btn btn-secondary search-btn" type="button" onclick="window.location.href='/'">Search Now</button>
+        </div>
+    </div>
+
+
+<div class="row align-items-md-stretch"></div>
+    <div class="col-md-12">
+        <hr>
+        <h2>About the creator</h2>
+        <br>
+        <img src="https://avatars.githubusercontent.com/u/91818512?v=4" class="pfp-img">
+        <br>
+        <br>
+        <p>Hi everyone! Aditya here, I'm the creator of this website. First of all, thanks for using seekr.ai for your job search, I'm so happy that I could be of help!</p>
+        <p>I'm a final year commerce student in Sri Venkateswara College - University of Delhi and I'm super interested in ML and Finance! If you want to get in touch then you can find me on instagram at @adityadoomra or by my full name on LinkedIn. If you want to contribute to the website then feel free to check out the website github and check for any open issues or create one if you have any suggestions for an update!</p>
+    </div>
+</div>
+
+{% endblock %}
