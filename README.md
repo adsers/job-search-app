@@ -5,7 +5,7 @@
 
 Watch demo video for the project:
 
-[![Watch the video](https://drive.google.com/u/0/uc?id=1uZGnXfxLDD_d8_K7OBO-MXMnfeL9hvx5&export=download)](https://youtu.be/2h69fCHPUIU)
+[![Watch the video](https://drive.google.com/u/0/uc?id=1jfC2B-wDUWDdOTZz8I4PSV0Qe_ZKVgWI&export=download)](https://youtu.be/2h69fCHPUIU)
 
 ### Website link: https://adsers.pythonanywhere.com
 ---
