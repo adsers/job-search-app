@@ -7,7 +7,7 @@ Watch demo video for the project:
 
 [![Watch the video](https://i9.ytimg.com/vi_webp/2h69fCHPUIU/mq1.webp?sqp=CISn3ZwG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGD8gVihyMA8=&rs=AOn4CLD7qP8ln9a97OaS5ngJPaZsOk3mDQ)](https://youtu.be/2h69fCHPUIU)
 
-### Website link: https://adsers.pythonanywhere.com/
+### Website link: https://adsers.pythonanywhere.com
 ---
 ### Description:
 This is a Flask based web application that uses natural language processing to return the most relevant job results from a database of job listings.
