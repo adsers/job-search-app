@@ -41,6 +41,10 @@ The about page contains information about the website and the creator and the in
 Bootstrap has been used as the primary CSS framework, however a custom stylesheet has also been added in the static folder to improve the aesthetics of the website.
 
 How to run the app:
-1. Make sure all dependencies are installed, this includes the python libraries such as Flask and SpaCy and any other libraries that may not be preinstalled in your computer.
-2. Navigate to the project folder and run the command `flask run` and you should get a message on your terminal showing the port where flask is running the web app.
-3. Go to a web browser and enter that port to access the web app!
+1. Fork the repository to local machine
+2. Install Python 3.10 and install all additional dependencies in `requirements.txt` using the command `pip install -r ./requirements.txt`.
+3. Navigate to the project folder and run the command `flask run` and you should get a message on your terminal showing the port where flask is running the web app.
+4. Go to a web browser and enter that port to access the web app!
+
+ALTERNATIVELY
+The website can also be accessed on https://adsers.pythonanywhere.com/
