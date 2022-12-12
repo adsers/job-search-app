@@ -1,7 +1,11 @@
 # screenr.ai | Job search app using NLP
-#### Video Demo:  <https://youtu.be/2h69fCHPUIU>
-#### Description:
-This is a web application based on Flask that uses natural language processing to return the most relevant job results from the database.
+
+[![Watch the video](https://i9.ytimg.com/vi_webp/2h69fCHPUIU/mq1.webp?sqp=CISn3ZwG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGD8gVihyMA8=&rs=AOn4CLD7qP8ln9a97OaS5ngJPaZsOk3mDQ)](https://youtu.be/2h69fCHPUIU)
+
+### Website link: https://adsers.pythonanywhere.com/
+---
+### Description:
+This is a Flask based web application that uses natural language processing to return the most relevant job results from a database of job listings.
 
 Technologies used:
 - HTML
@@ -9,15 +13,16 @@ Technologies used:
 - JavaScript
 - SQL
 - Python
-- Selenium
-- SpaCy
+    - Selenium
+    - SpaCy
+    - Flask
 
 The directory contains 2 files and 3 folders:
 
 - `app.py`
 - `master.db`
-- static folder
-- templates folder
+- `./static/` folder
+- `./templates/` folder
 
 The database: master.db is a SQLite database that has two main tables, one for users and one for jobs, if the user opts to store their resume with the system, their details are added to the users table. The jobs table has information regarding data analyst and data science jobs in Delhi NCR region collected from naukri.com using a bot made via selenium.
 
@@ -25,7 +30,7 @@ The users table contains email IDs, file names of resumes (if stored), a unique 
 
 The Flask application uses SpaCy to extract keywords and match them with job descriptions in the master database. It contains various helper functions in the start of the file to extract words from resume and clean the contents and check whether the files uploaded by users are of acceptable formats or not.
 
-All the files are temporarily stored in the `./uploads` folder when the application is running and if the user opts to not store their information, their resume is deleted from the folder after running the NLP algorithm.
+All the files are temporarily stored in the `./uploads/` folder when the application is running and if the user opts to not store their information, their resume is deleted from the folder after running the NLP algorithm.
 
 The website has 3 main pages:
 1. Search
