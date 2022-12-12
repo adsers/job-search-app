@@ -23,6 +23,7 @@ The directory contains 2 files and 3 folders:
 - `master.db`
 - `./static/` folder
 - `./templates/` folder
+- `./uploads/` folder
 
 The database: master.db is a SQLite database that has two main tables, one for users and one for jobs, if the user opts to store their resume with the system, their details are added to the users table. The jobs table has information regarding data analyst and data science jobs in Delhi NCR region collected from naukri.com using a bot made via selenium.
 
