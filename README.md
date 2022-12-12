@@ -1,4 +1,4 @@
-# YOUR PROJECT TITLE
+# screenr.ai | Job search app using NLP
 #### Video Demo:  <https://youtu.be/2h69fCHPUIU>
 #### Description:
 This is a web application based on Flask that uses natural language processing to return the most relevant job results from the database.
